@@ -19,7 +19,6 @@
 python3 app.py
 ```
 
-## **Configuration**
 ### Configure AI Model
 In `app.py`, set your preferred Ollama model:
 ```python
