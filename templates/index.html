@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="ChatBot">
+    <meta name="theme-color" content="#1C1C1C">
+    <title>ChatBot</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/ico">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="main-content" id="main-content">
+        <div class="chat-container" id="chat-container" role="log" aria-live="polite" aria-label="Chat messages"></div>
+        
+        <footer class="input-footer" id="input-footer">
+            <div class="input-container">
+                <textarea 
+                    id="user-input"
+                    class="user-input"
+                    placeholder="Message ChatBot"
+                    rows="1"
+                    aria-label="Type your message"
+                    role="textbox"
+                    maxlength="2000"
+                ></textarea>
+                <button 
+                    class="send-button" 
+                    onclick="sendMessage()"
+                    aria-label="Send message"
+                    title="Send message (Enter)"
+                >
+                    <svg aria-hidden="true" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="16" width="16">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </div>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
