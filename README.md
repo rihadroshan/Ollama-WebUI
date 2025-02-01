@@ -1,4 +1,4 @@
-**Ollama-WebUI** is a modern, responsive web interface designed for interacting with AI models through Ollama. It provides a sleek, user-friendly chat experience with support for both dark and light modes, real-time responses, and accessibility features.
+**Ollama-WebUI** is a modern, responsive web interface designed for interacting with AI models. It provides a sleek, user-friendly chat experience with support for both dark and light modes, real-time responses, and accessibility features.
 
 ---
 ## **Installation**
