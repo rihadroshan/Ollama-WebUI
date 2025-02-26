@@ -1,6 +1,13 @@
 # Ollama WebUI
 It's a responsive web interface designed for interacting with AI models. It provides a minimal, user-friendly chat experience with support for both dark and light modes, real-time responses, and accessibility features.
 
+## Features
+- **Responsive UI** — Smooth experience across all devices.
+- **Real-time AI Interaction** — Instant feedback powered by your preferred AI model.
+- **Dark & Light Modes** — Effortlessly switch between themes.
+- **Accessibility First** — Designed with inclusivity in mind.
+- **Customization Ready** — Easily configure your AI model and tailor the experience to your needs.
+
 ## **Installation**
 1. Clone this repository:
    ```bash
